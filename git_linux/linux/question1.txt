@@ -1,0 +1,3 @@
+Shell é um canal que nos permite conectar diretamente com o kernel do sistema operacional.
+Bash é um tipo de shell que é amplamente utilizado pela comunidade.
+Terminal é uma interface que vai permitir o usuário realizar entradas, como comandos por exemplo, e visualizar saídas.

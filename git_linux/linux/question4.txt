@@ -1,4 +1,1 @@
-cat cpuinfo | sed '1,4d;6,12d;14,$d' && cat meminfo | sed '4,5d;7,14d;17,$d'
-
-
-watch -n 1 "cat cpuinfo | sed '1,4d;6,12d;14,54d' && cat meminfo | sed '4,5d;7,14d;17,47d'"
+watch -n 1 'cat cpuinfo | grep -e "model name" -e "cpu cores" -w | sort -u ;cat meminfo | grep -e "MemTotal" -e "MemFree" -e "SwapCached" -w'

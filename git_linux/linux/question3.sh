@@ -1,1 +1,4 @@
-awk '{print length}' names.txt | paste  names.txt | sort charCounter.txt
+>out.txt
+awk '{print length}' names.txt  >> out.txt
+paste out.txt names.txt -d',' | sort | cut -d',' -f2
+
