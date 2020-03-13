@@ -1,4 +1,0 @@
-awk '{print length}' names.txt
-
-paste outfile3.txt names.txt > charCounter.txt
-ounter.txt

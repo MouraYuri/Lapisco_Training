@@ -1,9 +1,0 @@
-4 drwxrwxr-x 2 muriyoura muriyoura 4096 Mar 12 16:56 .
-4 drwxrwxr-x 3 muriyoura muriyoura 4096 Mar 10 14:48 ..
-4 -rw-rw-r-- 1 muriyoura muriyoura   75 Mar 10 14:53 log.txt
-4 -rw-rw-r-- 1 muriyoura muriyoura   50 Mar 10 23:18 names.txt
-0 -rw-rw-r-- 1 second    muriyoura    0 Mar 12 16:56 otheruser2.txt
-4 -rwxrwxr-x 1 muriyoura muriyoura   34 Mar 10 15:09 question2.sh
-4 -rwxrwxr-x 1 muriyoura muriyoura   73 Mar 12 09:13 question3.sh
-4 -rw-rw-r-- 1 muriyoura muriyoura   90 Mar 12 09:43 question3.txt.save
-4 -rw-rw-r-- 1 muriyoura muriyoura  171 Mar 11 15:10 question4.txt
