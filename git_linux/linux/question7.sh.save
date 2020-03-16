@@ -1,0 +1,2 @@
+counter='cut setosa.txt -f1 -d"," | paste -sd"+" |bc'
+
