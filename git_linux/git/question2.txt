@@ -1,0 +1,6 @@
+git diff retorna as mudanças entre o Working Directory e o Stage/Index.
+
+git diff --cached é responsável por comparar o Stage/Index e o HEAD.
+
+git diff HEAD realiza a comparação entre o HEAD e o Working
+Directory.

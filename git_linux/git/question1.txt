@@ -1,0 +1,7 @@
+Working directory é a camada mais abaixo onde o desenvolvedor irá trabalhar.
+
+A camada Stage/Index é intermediária ao Working Directory e ao History. Tal camada
+é responsável por guardar mudanças antes das mesmas serem "commitadas" ao History.
+
+Por fim, o History armazena o histórico de commits e as mudanças que foram
+realizadas no projeto com o passar do tempo.
