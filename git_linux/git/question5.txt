@@ -1,0 +1,6 @@
+O primeiro passo é realizar um fork, pois assim será possível realizar
+modificações no repositório "forkado" e efetuar um "pull request" para o
+repositório original.
+
+Com apenas o uso do git clone mudanças não poderão ser enviadas ao 
+repositório original caso o dev não faça parte dos colaboradores.
