@@ -1,0 +1,6 @@
+O comando "git reset HEAD" substitui os arquivos do Stage/Index pelos arquivos
+do commit que está sendo apontado pelo HEAD.
+
+O comando "git reset --hard HEAD" faz o mesmo do
+comando "git reset HEAD",  porém, além do Stage/Index, o
+Working Directory também tem seus arquivos substituidos.

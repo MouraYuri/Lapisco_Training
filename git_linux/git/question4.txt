@@ -1,3 +1,6 @@
 git reset HEAD
 git checkout README.md
 
+ou 
+
+git reset --hard HEAD
