@@ -1,0 +1,9 @@
+	Sim, na linha 2 é executada uma verificação de mudanças entre o Stage/Index e o History, que não irá retornar nada
+uma vez que as alterações não foram lançadas ao Stage.
+
+	Na linha 3 só serão commitados os arquivos que foram modificados e que 
+já estão sendo "trackeados", logo, como o arquivo "README.md" não está sendo rastreado, o mesmo não será commitado e um aviso
+de que existem "untracked files" será exibido no terminal.
+
+	Na linha 4 não será exibido nada no terminal, já que o comando "git commit -am 'message'" adiciona primeiramente ao stage e depois
+efetua o commit.
