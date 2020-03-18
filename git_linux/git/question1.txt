@@ -5,4 +5,3 @@ A camada Stage/Index é intermediária ao Working Directory e ao History. Tal ca
 
 Por fim, o History armazena o histórico de commits e as mudanças que foram
 realizadas no projeto com o passar do tempo.
-delete this
