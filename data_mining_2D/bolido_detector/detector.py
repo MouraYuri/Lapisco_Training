@@ -2,14 +2,20 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 from skimage.feature import local_binary_pattern as lbp, greycoprops,greycomatrix
+from os import path
 
-cap =  cv.VideoCapture('./data_mining_2D/bolido_detector/dataset/bolido_dataVarginha.mp4')
+datasetFolder = path.join('.','bolido_detector', 'dataset')
+video, trainImg = ["bolido_dataVarginha.mp4", "bolido_dataBH.mp4"], "bolido_brilhoFracoBH.png"
+
+cap =  cv.VideoCapture(path.join(datasetFolder, video[1]))
+
 
 orb = cv.ORB_create()
 bf = cv.BFMatcher(cv.NORM_HAMMING, crossCheck=False)
 
 
-bolido_fraco = cv.imread('./data_mining_2D/bolido_detector/dataset/bolido_brilhoFracoBH.png', cv.IMREAD_GRAYSCALE)
+bolido_fraco = cv.imread(path.join(datasetFolder, trainImg), cv.IMREAD_GRAYSCALE)
+
 ret, bolido_fracoThresholded = cv.threshold(bolido_fraco,200,1,cv.THRESH_BINARY)
 bolido_fracoSegmented = np.multiply(bolido_fracoThresholded, bolido_fraco)
 
